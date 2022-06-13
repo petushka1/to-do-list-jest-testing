@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(237, 237, 237);
+}
+
+section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 70%;
+  margin: 10% 0;
+  padding: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.font * {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+li,
+h1,
+button,
+p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  border-bottom: 1px solid rgba(130, 130, 130, 0.3);
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 300;
+  color: rgb(130, 130, 130);
+}
+
+.bold {
+  font-weight: 700;
+  color: rgb(130, 130, 130);
+}
+
+.list {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  float: right;
+}
+
+input {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+#btn {
+  text-align: center;
+  border-bottom: 0;
+  background-color: rgb(237, 237, 237);
+  color: rgb(130, 130, 130);
+  font-weight: 500;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 20px;
+  border: 2px solid rgba(130, 130, 130, 0.3);
+}
+
+.active {
+  background-color: rgb(255, 250, 232);
+}
