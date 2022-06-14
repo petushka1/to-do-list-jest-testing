@@ -18,6 +18,8 @@ A Books manager webapp that lists existing records and allows user to add and re
 
 Use this repo as a reference or clone to customize for your own project.
 
+### [Live Demo](https://petushka1.github.io/to-do-list-review/)
+
 ### Prerequisites
 
 - Must have a working computer
@@ -50,8 +52,6 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
   ```
     npm run lint:es
   ```
-
-### Deployment
 
 
 ## Authors
