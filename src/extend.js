@@ -30,7 +30,7 @@ function rearrange() {
 // new task template added to newly created li
 function makeTaskElement({ description }) {
   const li = document.createElement('li');
-  li.className = 'item';
+  li.className = 'item element';
   li.innerHTML = `<label><input type="checkbox"><input class="edit" placeholder='${description}'></input></label><img src='${dots}'>`;
   return li;
 }
@@ -130,7 +130,7 @@ export const populate = () => {
 
   taskArr.list.forEach(({ index, description }) => {
     listItems += `
-      <li id='${index}' class="item">
+      <li id='${index}' class="item element">
         <label>
           <input type="checkbox">
           <input type='text' class="edit" placeholder='${description}'>
