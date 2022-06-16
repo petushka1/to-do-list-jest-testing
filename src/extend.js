@@ -54,7 +54,7 @@ export function addTask(description) {
 }
 
 // remove li from the list (ul) and from task array
-function remove({ target }) {
+export function remove({ target }) {
   const li = target.parentElement;
   const index = parseInt(li.id, 10);
 
