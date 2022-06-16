@@ -1,7 +1,5 @@
-// import {makeTaskElement} from './__mock__/makeTaskElement.js';
 const makeTaskElement = require('../__mock__/makeTaskElement.js');
 import { taskArr, setLocalStorage } from './storage.js';
-
 
 export function addTask(description) {
   const newTask = {
