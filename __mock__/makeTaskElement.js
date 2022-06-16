@@ -1,3 +1,4 @@
+/* eslint-disable */
 function makeTaskElement({ description }) {
   const li = document.createElement('li');
   li.className = 'item element';

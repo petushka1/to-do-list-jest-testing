@@ -1,7 +1,9 @@
-const makeTaskElement = require('../__mock__/makeTaskElement.js');
+/* eslint-disable */
 import { taskArr, setLocalStorage } from './storage.js';
 
-export function addTask(description) {
+const makeTaskElement = require('../__mock__/makeTaskElement.js');
+
+function addTask(description) {
   const newTask = {
     index: taskArr.length,
     description,
@@ -16,4 +18,18 @@ export function addTask(description) {
   return newListItem;
 }
 
-module.exports = addTask;
+function remove({ target }) {
+  const li = target.parentElement;
+  const index = parseInt(li.id, 10);
+
+  li.remove();
+  taskArr.remove(index);
+
+  //  rearrange();
+  setLocalStorage();
+}
+
+module.exports = {
+  addTask,
+  remove,
+};

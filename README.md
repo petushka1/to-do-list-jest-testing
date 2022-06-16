@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # To Do List
+## Testing functionality
 
 A Books manager webapp that lists existing records and allows user to add and remove to and from the books record.
 
@@ -12,6 +13,7 @@ A Books manager webapp that lists existing records and allows user to add and re
 - JavaScript
 - Node.js
 - npm
+- jest
 
 
 ## Getting Started
@@ -25,18 +27,31 @@ Use this repo as a reference or clone to customize for your own project.
 
 ### Setup
 
-- Install _VSCode_ ([link](https://code.visualstudio.com/download))
-- Clone this project repository on your local computer. ([link](../../))
-- Open the project directory with _VSCode_
+- Install a text editor which will work for you.
+*I personally prefer [Atom](https://atom.io/)*
+- Clone this project repository on your local computer. [link](../../)
+- Open the project directory with _Text Editor_
 
 ### Install
 
-Open _Terminal/Shell_ inside your _VSCode_ and run
+Open _Terminal/Git Bash_ inside your and run
   ```
     npm install --force
   ```
+Install _Jest_ to run tests
+  ```
+    npm install --save-dev jest
+  ```
+Install _JSDOM_ to manipulate document elements
+```
+  npm install --save-dev jsdom global-jsdom
+```
+Install _Local Storage Mock_ to interact with local storage
+```
+  npm i --save-dev jest-localstorage-mock
+```
 
-### Run tests
+### Run linters tests
 
 - For _hint_ tests, run
   ```
