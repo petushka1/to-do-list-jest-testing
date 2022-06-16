@@ -1,4 +1,4 @@
-import { addTask } from '../src/addRemove.js';
+const addTask = require('../src/addRemove');
 jest.mock('../__mock__/makeTaskElement.js');
 
 
@@ -21,14 +21,12 @@ describe('should create a new li element with corresponding input data', () => {
   const LIST = document.querySelector('.list');
   const taskArr = [];
   const description = 'this is new task';
-  addTask(description);
+  LIST.appendChild(addTask(description));
   // Act
   test('new object and li from input "this is new task"', () => {
     //Assert
     expect(taskArr.length).toBe(1);
     expect(LIST.children()).toHaveLength(1);
-    /*
-    expect({index, description, completed}).toEqual('0', 'this is new task', false);
-    expect(LIST.children()).toHaveLength(1); */
+    expect(taskArr[0]).toEqual({index: 0, description: 'this is new task', completed: false});
   });
 });
