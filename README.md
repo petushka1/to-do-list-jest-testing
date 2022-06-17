@@ -5,6 +5,22 @@
 
 A Books manager webapp that lists existing records and allows user to add and remove to and from the books record.
 
+## TEST (Scope and Fllow)
+
+#### ⚡ ADD FUNCTION
+
+✔️check array length after a new element added
+
+✔️check ``` <ul> ``` children number after a new ``` <li> ``` created
+
+✔️check new array element value ``` toMatchObject ```
+
+#### ⚡ REMOVE FUNCTION
+
+✔️check array length after an element removed
+
+✔️check ``` <ul> ``` children number after ``` <li> ``` element removed
+
 
 ## Built With
 
@@ -28,7 +44,7 @@ Use this repo as a reference or clone to customize for your own project.
 ### Setup
 
 - Install a text editor which will work for you.
-*I personally prefer [Atom](https://atom.io/)*
+_I personally prefer [Atom](https://atom.io/)_
 - Clone this project repository on your local computer. [link](../../)
 - Open the project directory with _Text Editor_
 
