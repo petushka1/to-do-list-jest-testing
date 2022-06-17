@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655457637664" clover="3.2.0">
-  <project timestamp="1655457637664" name="All files">
-    <metrics statements="52" coveredstatements="29" conditionals="6" coveredconditionals="2" methods="17" coveredmethods="9" elements="75" coveredelements="40" complexity="0" loc="52" ncloc="52" packages="2" files="5" classes="5"/>
+<coverage generated="1655459104540" clover="3.2.0">
+  <project timestamp="1655459104540" name="All files">
+    <metrics statements="52" coveredstatements="30" conditionals="6" coveredconditionals="2" methods="17" coveredmethods="9" elements="75" coveredelements="41" complexity="0" loc="52" ncloc="52" packages="2" files="5" classes="5"/>
     <package name="__mock__">
       <metrics statements="11" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="makeTaskElement.js" path="C:\Users\Nadya\to-do-list-review\__mock__\makeTaskElement.js">
@@ -23,7 +23,7 @@
       </file>
     </package>
     <package name="src">
-      <metrics statements="41" coveredstatements="26" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="9"/>
+      <metrics statements="41" coveredstatements="27" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="9"/>
       <file name="addRemove.js" path="C:\Users\Nadya\to-do-list-review\src\addRemove.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="1" type="stmt"/>
@@ -41,13 +41,13 @@
         <line num="32" count="1" type="stmt"/>
       </file>
       <file name="editCompleteClear.js" path="C:\Users\Nadya\to-do-list-review\src\editCompleteClear.js">
-        <metrics statements="20" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <metrics statements="20" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -69,10 +69,10 @@
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
       </file>
     </package>
   </project>
