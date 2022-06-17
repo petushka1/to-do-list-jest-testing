@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <coverage generated="1655493599544" clover="3.2.0">
   <project timestamp="1655493599544" name="All files">
     <metrics statements="53" coveredstatements="42" conditionals="6" coveredconditionals="3" methods="17" coveredmethods="14" elements="76" coveredelements="59" complexity="0" loc="53" ncloc="53" packages="2" files="5" classes="5"/>
@@ -11,6 +12,7 @@
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
+
       </file>
       <file name="populate.js" path="C:\Users\Nadya\to-do-list-review\__mock__\populate.js">
         <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -25,6 +27,7 @@
     <package name="src">
       <metrics statements="42" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="14" coveredmethods="14"/>
       <file name="addRemove.js" path="C:\Users\Nadya\to-do-list-review\src\addRemove.js">
+
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -39,6 +42,7 @@
         <line num="26" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
+
       </file>
       <file name="editCompleteClear.js" path="C:\Users\Nadya\to-do-list-review\src\editCompleteClear.js">
         <metrics statements="21" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
@@ -67,6 +71,7 @@
       <file name="storage.js" path="C:\Users\Nadya\to-do-list-review\src\storage.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
         <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
