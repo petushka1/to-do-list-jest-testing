@@ -22,6 +22,7 @@ function taskCompleted(target) {
     taskArr.list[index].completed = false;
     target.nextElementSibling.style['text-decoration'] = 'none';
   }
+  return taskArr.list[index].completed
   setLocalStorage();
 }
 

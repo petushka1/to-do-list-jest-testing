@@ -42,16 +42,29 @@ describe('should update item description; tag items as completed; clear all sele
   });
   LIST.innerHTML = listItems;
 });
+  populate();
+  // Check description update
   // Act
   test('should save input value in placeholder and reset input value', () => {
-    populate();
     const liFirst = document.getElementById('1');
     const input = liFirst.querySelector('input[type="text"]');
     input.addEventListener ('click', updateTaskDescription)
     input.value = 'updated';
     input.click();
-    // updateTaskDescription(input);
     // Assert
     expect(input.placeholder).toEqual('updated');
+    expect(taskArr.list[1].description).toEqual('updated');
+  });
+  // Check status completed update
+  // Act
+  test('should update item\'s status to "completed" on checkbox:checked', () => {
+    const itemCompleted = document.getElementById('2');
+    const checkbox = itemCompleted.querySelector('input[type="checkbox"]');
+    checkbox.checked = true;
+    // checkbox.addEventListener('change', taskCompleted);
+
+    // checkbox.change;
+    // Assert
+    expect(taskCompleted(checkbox)).toBe(true);
   });
 });
