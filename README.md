@@ -66,9 +66,6 @@ Install _Local Storage Mock_ to interact with local storage
     npm run lint:es
   ```
 
-### Deployment
-
-
 ## Authors
 
 👤 **Nadezhda**
