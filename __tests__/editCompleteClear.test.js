@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { updateTaskDescription, taskCompleted, clearCompleted } =
 require('../src/editCompleteClear');
 
@@ -61,10 +62,23 @@ describe('should update item description; tag items as completed; clear all sele
     const itemCompleted = document.getElementById('2');
     const checkbox = itemCompleted.querySelector('input[type="checkbox"]');
     checkbox.checked = true;
-    // checkbox.addEventListener('change', taskCompleted);
-
     // checkbox.change;
     // Assert
     expect(taskCompleted(checkbox)).toBe(true);
+  });
+  // Check clear all completed
+  // Act
+  test('should remove all checked items', () => {
+    const itemCompleted = document.querySelectorAll('li');
+
+    itemCompleted.forEach((item) => {
+      const checkbox = item.querySelector('input[type="checkbox"]');
+      checkbox.checked = true;
+      taskCompleted(checkbox);
+    });
+    clearCompleted();
+
+    expect(taskArr.length).toBe(0);
+    expect(LIST.children).toHaveLength(0);
   });
 });

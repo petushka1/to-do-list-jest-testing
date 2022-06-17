@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { taskArr, setLocalStorage } from '../src/storage.js';
 
 function updateTaskDescription({ target }) {
@@ -34,6 +35,7 @@ function clearCompleted() {
     parent.remove();
   });
 //  rearrange();
+// return taskArr
   setLocalStorage();
 }
 

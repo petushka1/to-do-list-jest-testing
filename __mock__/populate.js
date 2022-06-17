@@ -1,3 +1,4 @@
+/* eslint-disable */
 const populate = () => {
   if (taskArr.length === 0) return;
 

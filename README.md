@@ -22,6 +22,23 @@ A Books manager webapp that lists existing records and allows user to add and re
 ✔️check ``` <ul> ``` children number after ``` <li> ``` element removed
 
 
+
+#### ⚡ UPDATE FUNCTION
+
+✔️ check ``` li ``` child ```:placeholder```  to equal test case value
+
+✔️ check ```array[index].description``` to equal test case value
+
+#### ⚡ UPDATE COMPLETED STATUS FUNCTION
+
+✔️ check the status of array element to change to true on ```checkbox.checked = true```;
+
+#### ⚡ CLEAR ALL SELLECTED FUNCTION
+
+✔️ check all completed ```li``` removed when function invoked;
+
+✔️ check all corresponding array elements are removed;
+
 ## Built With
 
 - html
